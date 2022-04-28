@@ -1,0 +1,9 @@
+{
+     "path":[
+          { "id": 0, "value": "name" },
+          { "id": 1, "value": "abv" }
+     ],
+     "colorClass" : "text-danger",
+     "ascClass" : "fa fa-sort-asc",
+     "descClass" : "fa fa-sort-desc"
+}

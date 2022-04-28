@@ -1,0 +1,8 @@
+{
+  "filtersData":[
+    { "id": 0, "filter": "", "label": "All beers" },
+    { "id": 1, "filter": "pizza", "label": "Pizza Pairing" },
+    { "id": 2, "filter": "steak", "label": "Steak Pairing" }
+  ],
+  "colors":{"activeColorClass":"text-danger","colorClass":"text-secondary"}
+}

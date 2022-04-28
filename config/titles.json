@@ -1,0 +1,9 @@
+{
+    "cartTitles":{
+        "summary":"Order Summary",
+        "total":"Total"
+    },
+    "shopTitles":{
+        "emptyMsg":"There is problem for connection to server!"
+    }
+}
