@@ -18,13 +18,17 @@ const Product = (product) => {
     <div className="col-12 col-sm-6 col-md-4 col-xl-3 d-sm-flex align-items-stretch p-1">
       <div className="card bg-light w-100">
         <div className="card-img-container d-flex justify-content-center align-items-end w-100 ">
-          <Image
-            className="card-img"
-            src={image_url}
-            alt={""}
-            width={50}
-            height={160}
-          ></Image>
+          {image_url && (
+            <Image
+              className="card-img"
+              src={image_url}
+              alt={name}
+              width={50}
+              height={160}
+              placeholder="blur"
+              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
+            ></Image>
+          )}
         </div>
         <div className="card-img-overlay d-flex justify-content-end">
           <div className="d-flex flex-column">

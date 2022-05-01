@@ -1,5 +1,3 @@
-module.exports = {
-    images: {
-        domains: ['images.punkapi.com'],
-    },
+export const images = {
+    domains: ['images.punkapi.com']
 };

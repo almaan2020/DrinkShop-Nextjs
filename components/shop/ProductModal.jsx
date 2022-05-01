@@ -27,7 +27,16 @@ const ProductModal = (props) => {
             </div>
           </div>
           <div className="product-modal-pic p-1 text-center">
-            <Image src={image_url} alt={name} width={100} height={300}></Image>
+            {image_url && (
+              <Image
+                src={image_url}
+                alt={name}
+                width={100}
+                height={300}
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
+              ></Image>
+            )}
           </div>
         </div>
       </Modal.Body>

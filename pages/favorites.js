@@ -34,6 +34,7 @@ const FavoriteList = () => {
                                     abv={p[0].abv}
                                 />
                             ))}
+                        {favProducts.length === 0 && <div className="col-12 text-center">No Favorites!</div>}
                     </div>
                 </div>
                 <div className="col-2"></div>

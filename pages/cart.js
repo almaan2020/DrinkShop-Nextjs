@@ -47,6 +47,7 @@ const CartList = () => {
                                     handleRemoveCart={handleRemoveCart}
                                 />
                             ))}
+                        {cartProducts.length === 0 && <div className="col-12 text-center">Cart is empty!</div>}
                     </div>
                 </div>
             </div>
